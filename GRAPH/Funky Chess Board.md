@@ -15,13 +15,13 @@
     The maximum dimensions of the board will be 10 rows and 10 columns. That is, any modified chessboard specified by the input will fit completely on a 10 row, 10 column board.
 
 - Input Format: First line contains an integer <b><i>n</i></b>, representing the side of     square of chess board.
-    The next <b><i>n</i></b> line contains <b><i>n</i></b> integers separated by single spaces in which j<sub>jth</sub> integer is 1 if that cell(i,j) is part of chessboard and 0 otherwise.
+    The next <b><i>n</i></b> line contains <b><i>n</i></b> integers separated by single spaces in which <sub>jth</sub> integer is 1 if that cell(i,j) is part of chessboard and 0 otherwise.
     
      - Sample Input: 3
         1 1 1
         1 1 1
         1 1 1
-        Output Format: Print the minimum number of squares that the knight can not reach.
+     - Output Format: Print the minimum number of squares that the knight can not reach.
      - Sample Output: 1
 
 - Solution
