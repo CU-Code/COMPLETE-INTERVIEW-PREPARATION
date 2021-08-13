@@ -5,13 +5,12 @@
   Given a list of words words, determine whether the words can be chained to form a circle. A word X can be placed in front of another word Y in a circle if the last character of X is same as the first character of Y. All words must be used and can only be used once (excluding the first/last word).
   Contraints = <code>words ≤ 15000</code>
   
-    Input: arr[] = {"for", "geek", "rig", "kaf"}
-    Output: Yes, the given strings can be chained.
-    The strings can be chained as "for", "rig", "geek" 
-    and "kaf"
+   - Input: arr[] = {"for", "geek", "rig", "kaf"}
+   - Output: Yes, the given strings can be chained.
+     The strings can be chained as "for", "rig", "geek" and "kaf"
 
 
-    Intuition - Euler tour and a bit manipulation with the in degree and out degree to make it work in O(n)
+- Intuition - Euler tour and a bit manipulation with the in degree and out degree to make it work in O(n)
 
 - Solution
 
